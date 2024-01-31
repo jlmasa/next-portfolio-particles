@@ -162,7 +162,7 @@ export default function Home() {
         <section>
           <div className="text-5xl justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
             <h3 className="text-3xl py-1 dark:text-gray-200">TECHNOLOGIES</h3>
-            <div className="flex justify-center gap-5 py-10 pb-10 rounded-xl z-10 bg-teal-500 dark:bg-gray-100">
+            <div className="flex justify-center gap-5 py-10 pb-10 rounded-xl z-10 p-5 bg-teal-500 dark:bg-gray-100 md: flex-wrap">
               <Image
                 src={nodeicon}
                 width={50}
